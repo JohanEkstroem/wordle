@@ -58,7 +58,7 @@ test('tests if all chars are perfect match', () => {
   expect(output).toEqual(result);
 });
 
-test('', () => {
+test('tests if repetade chars behave different', () => {
   const input = 'oolll'.toUpperCase();
   const gameString = 'llloo'.toUpperCase();
   const output = compareStrings(input, gameString);
